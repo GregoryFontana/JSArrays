@@ -95,13 +95,10 @@ if(i%2===0){
 //  Find the Median
 ////////////////////////////////
 const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
-
 //Expected output:
 //=> 15
-// nums.sort()
-// console.log(nums)
-array = nums.sort()
-function Median(array){
-    Math.floor(nums.sort((nums.length/2)))
-}
-console.log(array)
+nums.sort()
+console.log(nums)
+const Median = Math.floor(nums.length/2)
+
+console.log(nums[Median])
