@@ -77,11 +77,19 @@ const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
                     ["Petunia", ["Baked Goods", "Waldo"]]];
 whereIsWaldo.splice(1,1)                                        
 console.log(whereIsWaldo)
-whereIsWaldo.splice(2, 1, "No One")
+whereIsWaldo[2].splice(2, 1, "No One")
 console.log(whereIsWaldo) //Didn't quite work for me.
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
+for (let i = 0; i<=20; i++){
+console.log("Love me, pet me! HSSSSSS!")
+if(i%2===0){
+    const meow = ['...human...why you taking pictures of me?...', '...the catnip made me do it...', '...why does the red dot always get away...']
+    const kittyTalk = meow[0]||meow[1]||meow[2]
+ console.log(Math.floor(Math.random(kittyTalk) * 20))
+} 
+}
 
 ////////////////////////////////
 //  Find the Median
