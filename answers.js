@@ -72,7 +72,13 @@ console.log(favMovies.indexOf('Fast and Furious'))// We get 13. I don't know why
 ////////////////////////////////
 // Where is Waldo
 ////////////////////////////////
-
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                    ["Lucinda", "Jacc", "Neff", "Snoop"],
+                    ["Petunia", ["Baked Goods", "Waldo"]]];
+whereIsWaldo.splice(1,1)                                        
+console.log(whereIsWaldo)
+whereIsWaldo.splice(2, 1, "No One")
+console.log(whereIsWaldo) //Didn't quite work for me.
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
